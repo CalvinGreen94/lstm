@@ -12,7 +12,7 @@ Requirements: ...
      (summarize.py will read data from Fauna Prompts collection and write data to disk.) 
      
 ###### 2. data.py => an array of sample data
-     (add more data to array, the more data the longer the training with the current model shared.)
+     (add more data to array, the more data the longer the training with the current model given.)
 
 ###### 3. output.txt =>  data from fauna Prompts collection
      (data from Fauna will be stored in this text file.)
