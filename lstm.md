@@ -1,4 +1,5 @@
-# Guide to lstm_mods @ Labyrinthine Unreal
+# Guide to lstm_mods for @Labyrinthine Unreal 
+
 
 # installs
 
@@ -21,7 +22,9 @@ Requirements: ...
  ### <p>  *LSTM MODs interactions* </p>
 
 ###### 1. app.py => python Fauna api
-     (python app.py will fetch data from Unity C# scripts JSON payload and post data to Fauna.)
+     (python app.py will fetch data from Unity C# scripts JSON payload and post data to Fauna real-time.)
+     (While the unity character is training to move around the environment, the character name, movements, positions, and velocity will be stored live in the fauna Movement collection.)
+     TODO: Create an analysis script to monitor real-time character training data.
      
 
 ###### 2. automateTask.py => ChatGPT conversation modelling
@@ -55,7 +58,7 @@ Requirements: ...
 
 ###### 2. torch_lstm.py => Conversion
      (copy/pasta of the Keras LSTM model from process.py) 
-     (exports LSTM model as ONNX model to be machine readable in unity) 
+     (exports LSTM model as ONNX model to be machine readable in unity, allowing users to communicate with objects in game such as characters, utilizing trained/evaluated models.) 
 
 
 
