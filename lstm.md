@@ -38,9 +38,6 @@ Requirements: ...
      (Preprocessing for Topic Modelling Topic Modelling is an approach for finding topics in large amounts of text.)
      (Topic modeling is great for document clustering, information retrieval from unstructured text, and feature selection.)
      
-     
-###### 4. eval.py> Standalone AI model for frontend stack like ChatGPT.
-     (performs inference utilizing the saved Keras model. This model can be used on frontend or command line.)
 
 <br> <br>
 
@@ -60,6 +57,12 @@ Requirements: ...
      (copy/pasta of the Keras LSTM model from process.py) 
      (exports LSTM model as ONNX model to be machine readable in unity, allowing users to communicate with objects in game such as characters, utilizing trained/evaluated models.) 
 
+
+ ### <p>  *Testing* </p>
+
+
+###### 1. eval.py> Standalone AI model for frontend stack like ChatGPT.
+     (performs inference utilizing the saved Keras model. This model can be used on frontend or command line.)
 
 
 
